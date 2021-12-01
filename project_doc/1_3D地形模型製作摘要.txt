@@ -1,0 +1,34 @@
+﻿1. 3D地形數值檔下載
+
+內政部地政司衛星測量中心網站 (數值地形模型位置展示)
+https://gps.moi.gov.tw/sscenter_mapframe/map/sscenter_map.aspx
+點選定位標籤, 於右側圖區點選地圖並勾選地形圖
+直接於圖區尋找目標區域
+
+內政部20公尺網格數值地形模型資料
+http://data.gov.tw/node/35430
+於此網址下載目標區域所在縣市之 分幅_XXX20mdem.rar
+這些網格數值檔內存TWD97 TM2-121 (二度分帶)之
+x y z 數值(單位皆為公尺), 
+x及y表示距座標原點的距離
+z表示座標點位置之海拔高度(elevation)
+
+此檔以QGIS軟體讀入後可轉存為stl檔
+此檔以Mathematica軟體讀入後可轉存為stl 或 dxf檔
+SuperGIS軟體可以圖層方式匯入
+
+stl或dxf格式的3D模型皆可於A360 Viewer網站線上檢視
+dxf格式的3D模型可用ABViewer 11軟體轉存為stl檔
+stl或dxf格式的3D模型可用ABViewer 11及stlView軟體檢視
+Free online STL viewer 可檢視stl格式的3D模型
+
+2. 選擇特定的圖幅號碼, 即可產生該區域的3D地形模型
+    花蓮縣玉里鎮太平國小附近區域, 是3D地形模型很好的展示區
+
+3. 網格數值地形模型資料可以併接或裁切, 以獲取特定區域的3D地形模型
+
+4. 地形起伏較大的區域, 3D列印成品的視覺效果較佳
+
+5. 本專題可學習地圖之大地基準、座標格式、比例尺等相關知識
+
+6. STL圖面單位是cm (1km scale to 10cm)
